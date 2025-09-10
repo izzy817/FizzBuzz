@@ -35,8 +35,12 @@ class FizzBuzz {
 //    }
 //}
 
-    public static void main(String[] args) {
+    public static void main() {
         int i = 1;
+        doFizzBuzz(i);
+    }
+
+    public static void doFizzBuzz(int i) {
         while (i < 100) {
 
         // Find out which numbers divide i.
@@ -61,7 +65,7 @@ class FizzBuzz {
             System.out.println(i);
 
         }
-        i ++;
+        i++;
     }
-}
+    }
 }

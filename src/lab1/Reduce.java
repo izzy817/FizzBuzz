@@ -6,7 +6,7 @@ public class Reduce {
 
     }
 
-    static int reduce (int n) {
+    public static int reduce(int n) {
         int count = 0;
         while (n > 0) {
             count++;
